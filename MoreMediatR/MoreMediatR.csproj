@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Authors>Hamed Fathi</Authors>
+		<Company />
+		<LangVersion>latest</LangVersion>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<Version>0.0.1</Version>
+		<PackageProjectUrl>https://github.com/HamedFathi/EnumeratorExtended</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/HamedFathi/EnumeratorExtended</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="10.3.6" />
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+	</ItemGroup>
+
+</Project>
